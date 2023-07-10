@@ -1,0 +1,9 @@
+.header__e-mail {
+    margin: 8px 24px 0 0;
+}
+
+@media screen and (max-width: 500px) {
+    .header__e-mail {
+        margin: 0 0 18px;
+    }
+}

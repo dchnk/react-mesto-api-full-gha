@@ -1,0 +1,27 @@
+.haeder__burger-menu {
+    margin: 8px 0 0;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+.haeder__burger-menu:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+
+@media screen and (max-width: 934px) {
+    .haeder__burger-menu {
+        margin-right: 27px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .haeder__burger-menu {
+        display: block;
+    }
+}

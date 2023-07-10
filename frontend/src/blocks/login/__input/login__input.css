@@ -1,0 +1,9 @@
+.login__input {
+  margin: 15px 0 28px;
+  font-size: 14px;
+  border: none;
+  padding-bottom: 9px;
+  color: white;
+  border-bottom: 2px solid #CCCCCC;
+  background-color: transparent;
+}

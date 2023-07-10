@@ -1,0 +1,7 @@
+.element__photo {
+    height: 282px;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}

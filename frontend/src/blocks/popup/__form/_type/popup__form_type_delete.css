@@ -1,0 +1,9 @@
+.popup__form_type_delete {
+    margin: 19px auto 0;
+}
+
+@media screen and (max-width: 440px) {
+    .popup__form_type_delete {
+        margin: 8px 22px 0;
+    }
+}

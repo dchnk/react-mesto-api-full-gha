@@ -1,0 +1,15 @@
+.header__login-container {
+    flex-direction: row;
+    margin: 0 auto;
+    display: flex;
+}
+
+@media screen and (max-width: 500px) {
+    .header__login-container {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        border-bottom: 1px solid #545454b3;
+        
+    }
+}

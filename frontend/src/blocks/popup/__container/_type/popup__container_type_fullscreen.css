@@ -1,0 +1,13 @@
+.popup__container_type_fullscreen {
+    max-width: 75vw;
+    width: fit-content;
+    background-color: transparent;
+    transform: translate(0px, 16px);
+}
+
+@media screen and (max-width: 468px) {
+    .popup__container_type_fullscreen {
+        margin: auto;
+        transform: translate(0px, 14px);
+    }
+}

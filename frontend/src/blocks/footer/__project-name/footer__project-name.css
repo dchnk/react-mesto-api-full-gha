@@ -1,0 +1,22 @@
+.footer__project-name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #545454;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 934px) {
+    .footer__project-name {
+        margin-left: 27px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .footer__project-name {
+        margin-left: 19px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
