@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
@@ -5,6 +6,7 @@ const bodyParser = require('body-parser');
 const { errors } = require('celebrate');
 const router = require('./routes/index');
 const { errorsFisher } = require('./middlewares/errorsFisher');
+const { requestLogger, errorLogger } = require('./middlewares/logger');
 
 const app = express();
 const { PORT = 4000 } = process.env;
@@ -23,7 +25,9 @@ app.use(cors({
   origin: 'http://192.168.0.7:3000',
 }));
 
+app.use(requestLogger);
 app.use(router);
+app.use(errorLogger);
 app.use(errors());
 app.use(errorsFisher);
 
