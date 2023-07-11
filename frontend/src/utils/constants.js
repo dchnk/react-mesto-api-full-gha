@@ -8,7 +8,7 @@ export const validationSettings = {
 }
 
 export const apiOptions = {
-  baseUrl: 'http://localhost:4000',
+  baseUrl: 'http://api.denis-diachenko.nomoredomains.work',
   headers: {
     'Content-Type': 'application/json'
   }

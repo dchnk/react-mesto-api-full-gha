@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://localhost:4000';
+export const BASE_URL = 'http://api.denis-diachenko.nomoredomains.work';
 
 export const checkRequestResult = (res) => {
   if (res.ok) {
