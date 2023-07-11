@@ -2,8 +2,8 @@
   "name": "mesto-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://denis-diachenko.nomoredomains.work/",
-  "proxy": "http://denis-diachenko.nomoredomains.work/",
+  "homepage": "https://denis-diachenko.nomoredomains.work/",
+  "proxy": "https://denis-diachenko.nomoredomains.work/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
