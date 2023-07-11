@@ -22,7 +22,7 @@ mongoose.connect('mongodb://0.0.0.0:27017/mestodb', {
 });
 
 app.use(cors({
-  origin: 'http://192.168.0.7:3000',
+  origin: 'http://denis-diachenko.nomoredomains.work',
 }));
 
 app.use(requestLogger);
