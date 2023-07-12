@@ -2,7 +2,7 @@
 const jwt = require('jsonwebtoken');
 const BadRequestError = require('./Errors/BadRequestError');
 
-const JWT_SECRET = require('../.env');
+const { JWT_SECRET } = process.env;
 
 const generateToken = (id) => jwt.sign({ id }, JWT_SECRET, { expiresIn: '7d' });
 
